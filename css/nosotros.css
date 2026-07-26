@@ -1,0 +1,149 @@
+
+
+
+/* ===============================
+   HISTORIA
+================================ */
+
+.historia{
+
+    width:90%;
+    max-width:1300px;
+
+    margin:70px auto;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:60px;
+
+}
+
+.historia-imagen{
+
+    flex:1;
+
+}
+
+.historia-imagen img{
+
+    width:100%;
+
+    border-radius:20px;
+
+    box-shadow:var(--sombra);
+
+}
+
+.historia-texto{
+
+    flex:1;
+
+}
+
+.historia-texto h2{
+
+    color:var(--cafe);
+
+    font-size:2.3rem;
+
+    margin-bottom:20px;
+
+}
+
+.historia-texto p{
+
+    margin-bottom:20px;
+
+    color:var(--gris);
+
+}
+
+/* ===============================
+   MISIÓN Y VISIÓN
+================================ */
+
+.mision-vision{
+
+    width:90%;
+    max-width:1300px;
+
+    margin:90px auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:40px;
+
+}
+
+.mision-vision article{
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:var(--sombra);
+
+}
+
+.mision-vision h2{
+
+    color:var(--cafe);
+
+    margin-bottom:20px;
+
+}
+
+/* ===============================
+   VALORES
+================================ */
+
+.valores{
+
+    width:90%;
+    max-width:900px;
+
+    margin:90px auto;
+
+    text-align:center;
+
+}
+
+.valores h2{
+
+    color:var(--cafe);
+
+    margin-bottom:30px;
+
+    font-size:2.2rem;
+
+}
+
+.valores ul{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:20px;
+
+}
+
+.valores li{
+
+    background:white;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    box-shadow:var(--sombra);
+
+    font-weight:bold;
+
+}

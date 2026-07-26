@@ -1,0 +1,178 @@
+
+@media (max-width:992px){
+
+    .hero,
+    .sobre-nosotros,
+    .historia,
+    .detalle-producto{
+
+        flex-direction:column;
+
+    }
+
+    .contenedor-productos{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .contenedor-beneficios{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .catalogo{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .galeria-completa,
+    .contenedor-galeria{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .contacto{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .mision-vision{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+/* ==================================
+   CELULARES
+================================== */
+
+@media (max-width:768px){
+
+    .contenedor-header{
+
+        flex-direction:column;
+
+        gap:20px;
+
+    }
+
+    nav ul{
+
+        flex-direction:column;
+
+        align-items:center;
+
+        gap:15px;
+
+    }
+
+    .acciones{
+
+        justify-content:center;
+
+    }
+
+    .hero-texto h1{
+
+        font-size:2.6rem;
+
+    }
+
+    .hero-texto h2{
+
+        font-size:1.5rem;
+
+    }
+
+  
+
+    .titulo-seccion h2{
+
+        font-size:2rem;
+
+    }
+
+    .contenedor-productos{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .contenedor-beneficios{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .catalogo{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .galeria-completa,
+    .contenedor-galeria{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .valores ul{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .cta{
+
+        padding:45px 25px;
+
+    }
+
+}
+
+/* ==================================
+   CELULARES PEQUEÑOS
+================================== */
+
+@media (max-width:480px){
+
+    .hero{
+
+        margin:40px auto;
+
+    }
+
+    .hero-texto h1{
+
+        font-size:2rem;
+
+    }
+
+    .hero-texto h2{
+
+        font-size:1.3rem;
+
+    }
+
+  
+    .contenedor-header{
+
+        width:95%;
+
+    }
+
+    section{
+
+        padding:50px 5%;
+
+    }
+
+}
